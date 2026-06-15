@@ -1,0 +1,457 @@
+section{
+    display:flex;
+    position: relative;
+    padding: 170px 50px 20px 50px;
+}
+.info{
+    width:30%;
+    margin-left: 150px;
+}
+.info h1{
+    font-size: 60px;
+    font-weight:800;
+}
+.info button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 30px;
+    margin-top:40px;
+}
+.sofa_image img{
+    margin-left: 70px;
+}
+.bottom_text{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    background-color: white;
+    font-weight: bolder;
+    padding:10px 20px;    
+}
+.page2 h2{
+    margin-top:50px;
+    text-align: center;
+}
+.row1{
+    display:flex;
+    gap:20px;
+    padding : 50px 150px 0px 150px;
+}
+.row1 .content1{
+    display:flex;
+    width:60%;
+    background-color: #f8fbff;
+    gap:10px;
+    padding:10px 20px;
+}
+.row1 .content1 .info1{
+    width:30%;
+}
+.row1 .content2{
+    display:flex;
+    width:40%;
+    background-color: #f8fbff;
+    gap:0px;
+    padding:10px 20px;
+}
+.row1 .content2 .info2{
+    width:70%;
+}
+.row1 .content2 img{
+    height:250px;
+    width:250px;
+}
+.row2{
+    display:flex;
+    gap:20px;
+    padding: 50px 150px 0px 150px;
+}
+.row2 .content3{
+    display:flex;
+    width:40%;
+    background-color: #f8fbff;
+    gap:0px;
+    padding:10px 20px;
+}
+.row2 .content3 .info3{
+    width:70%;
+}
+.row2 .content4{
+    display:flex;
+    width:60%;
+    background-color: #f8fbff;
+    gap:10px;
+    padding:10px 20px;
+
+}
+.row2 .content4 .info4{
+    width:30%;
+}
+.page3 .container1{
+    display: flex;
+    gap:10px;
+    padding: 20px 200px;
+    margin-top: 50px;
+}
+.page3 .container2{
+    display:flex;
+    gap:10px;
+    padding: 20px 200px;
+}
+.page3 .container1 img{
+    height:300px;
+    width:265px;
+}
+.page3 .container2 img{
+    height:300px;
+    width:265px;
+}
+.page3 h2{
+    padding: 50px 0px 50px 200px;
+}
+.page3 .text{
+    font-weight: bolder;
+    margin-left: 1170px;
+}
+.page4{
+    display: flex;
+    background-color:#e0e8ea;
+    gap:50px;
+    padding: 20px 50px;
+}
+.page4 img{
+    width:40%;
+}
+.page .content{
+    width: 60%;
+}
+
+.page4 .content h2{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.page4 .content .buynow .email{
+    margin-left: 400px;
+    border: 0px ;
+    background-color: white;
+    padding: 20px 70px 20px 20px;
+    color:grey;
+}
+.page4 .content .buynow .button{
+    color: white;
+    border: 0px ;
+    background-color: red;
+    padding: 20px ;   
+}
+.page4 .content .buynow{
+    display: flex;
+}
+.salesContainer{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+.box label{
+    font-size: medium;
+    font-weight: bold;
+    color: #565454;
+}
+.box h2{
+    font-size: large;
+    font-weight: bolder;
+}
+.bestSellers_container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-bottom: 50px;
+}
+.bestSellers h2{
+    padding: 50px 0px 50px 200px;
+    
+}
+.bestSellers .text{
+    font-weight: bolder;
+    margin-left: 1170px;
+    margin-bottom: 50px;
+}
+.subscribeContainer{
+    background-color: #f4f9fd;
+    height:570px;
+    padding: 20px 50px;
+}
+.subscribeContainer p{
+    color: red;
+    text-align: center;
+    padding:100px 0px 25px 0px;
+    font-size: small;
+}
+.subscribeContainer h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight:800;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap:10px;
+}
+.subscribeContainer .email{
+    border: 0px ;
+    background-color: white;
+    padding: 20px 70px 20px 20px;
+    color:grey;    
+}
+.subscribeContainer .button{
+    color: white;
+    border: 0px ;
+    background: linear-gradient(to right, red,orange);
+    padding: 20px ;
+    border-radius: 7px;
+}
+.logoRow1{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 50px;
+}
+.logoRow2{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 50px;
+}
+.logoRow1 img{
+    border: 2px solid #e5dfdf ;
+    padding:30px ;  
+}
+.logoRow2 img{
+    border: 2px solid #e5dfdf ;
+    padding: 30px ;
+}
+@media (max-width:768px){
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .logo img{
+        width: 120px;
+        margin-left: 0;
+    }
+
+    nav{
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        margin-right: 0;
+    }
+
+    .symbol{
+        width: auto;
+        margin-right: 0;
+    }
+
+    section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .info{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .info h1{
+        font-size: 40px;
+    }
+
+    .sofa_image img{
+        margin-left: 0;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .bottom_text{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .row1,
+    .row2{
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .row1 .content1,
+    .row1 .content2,
+    .row2 .content3,
+    .row2 .content4{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .row2 .content4 img{
+        width: 250px;
+    }
+
+    .page3 h2,
+    .bestSellers h2{
+        margin-left: 30px;
+    }
+
+    .page3 .text,
+    .bestSellers .text{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container1,
+    .container2,
+    .bestSellers_container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .page4{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page4 img{
+        width: 100%;
+    }
+
+    .page4 .content h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .salesContainer{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .page4 .content .buynow{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page4 .content .buynow .email{
+        margin-left: 0;
+    }
+
+    .subscribe{
+        flex-wrap: wrap;
+    }
+
+    .logoRow1,
+    .logoRow2{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footerTop{
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footerBottom{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footerBottom p{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .footerBottom .AIT{
+        margin-top: 0;
+    }
+
+    .footerBottom .Icons{
+        margin-left: 0;
+    }
+}
+@media (max-width:480px){
+
+    nav{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .info h1{
+        font-size: 30px;
+    }
+
+    .row1 .content1,
+    .row1 .content2,
+    .row2 .content3,
+    .row2 .content4{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row1 img,
+    .row2 img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .container1 .box,
+    .container2 .box,
+    .bestSellers_container .box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .page3 .container1 img,
+    .page3 .container2 img,
+    .bestSellers_container img{
+        width: 100%;
+        height: auto;
+    }
+
+    .page4 .content h2{
+        font-size: 28px;
+    }
+
+    .subscribeContainer h2{
+        font-size: 28px;
+    }
+
+    .subscribeContainer .email,
+    .subscribeContainer .button
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    form input
+    {
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 10px;
+    }
+
+    form button
+    {
+        position: static;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
